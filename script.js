@@ -11,7 +11,7 @@ const getSum = () => {
 		totalSum+=parseInt(t.innerText);
 	}
   let newTotal= document.createElement("div");
-
+newTotal.id="ans";
 newTotal.innerHTML=`<p>${totalSum}</p>`
 
 document.body.appendChild(newTotal);
